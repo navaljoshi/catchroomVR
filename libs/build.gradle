@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('craftar-augmented-reality-sdk-android.jar')
+    compile files('httpcore-4.3.jar')
+    compile files('httpmime-4.3.jar')
+    compile files('sanselan-0_97-android-1.0.0.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
